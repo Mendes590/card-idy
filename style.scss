@@ -3,7 +3,7 @@
 body{
     font: 18px "Nunito", sans-serif;
     color: black;
-    min-height: 100vh;
+    min-height: 150vh;
     padding: 4rem;
     display: flex;
     justify-content: center;
@@ -35,8 +35,8 @@ body{
 .profile-card {
     
     border-radius: 50px;
-    width: 1028px;
-    height: 665px;
+    width: 120%;
+    height: 2250px;
     position: relative;
     backdrop-filter: blur(15px);
     border: 2px solid #ffffff40;
