@@ -171,7 +171,6 @@ body::before {
 }
 .profile-card__actions > a > button.red {
   background: linear-gradient(45deg, #851a1a, #770606);
-  box-shadow: 0 4px 30px rgba(247, 40, 40, 0.5);
 }
 .profile-card__actions > a > button.green {
   background: linear-gradient(45deg, #0b8045, #06832b);
