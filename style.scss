@@ -3,7 +3,7 @@
 body{
     font: 18px "Nunito", sans-serif;
     color: black;
-    min-height: 185vh;
+    min-height: 158vh;
     padding: 5rem;
     display: flex;
     justify-content: center;
@@ -35,8 +35,8 @@ body{
 .profile-card {
     
     border-radius: 50px;
-    width: 1600px;
-    height: 2900px;
+    width: 1500px;
+    height: 2400px;
     position: relative;
     backdrop-filter: blur(15px);
     border: 2px solid #ffffff40;
@@ -92,7 +92,7 @@ body{
             & > *:first-child{
                 font-weight: bold;
                 letter-spacing: 40px;
-                font-size: 11rem;
+                font-size: 6rem;
                 margin-bottom: 15px;
             }
 
@@ -156,7 +156,7 @@ body{
         display: flex;
         align-items: center;
         justify-content: center;
-        gap: 35rem;
+        gap: 26rem;
 
         &>a>button{
             font-weight: bold;

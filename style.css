@@ -2,7 +2,7 @@
 body {
   font: 18px "Nunito", sans-serif;
   color: black;
-  min-height: 185vh;
+  min-height: 158vh;
   padding: 5rem;
   display: flex;
   justify-content: center;
@@ -39,8 +39,8 @@ body::before {
 }
 .profile-card {
   border-radius: 50px;
-  width: 1600px;
-  height: 2900px;
+  width: 1500px;
+  height: 2400px;
   position: relative;
   -webkit-backdrop-filter: blur(15px);
           backdrop-filter: blur(15px);
@@ -93,7 +93,7 @@ body::before {
 .profile-card__info > div > *:first-child {
   font-weight: bold;
   letter-spacing: 40px;
-  font-size: 11rem;
+  font-size: 6rem;
   margin-bottom: 15px;
 }
 .profile-card__info > div > *:last-child {
@@ -147,7 +147,7 @@ body::before {
   display: flex;
   align-items: center;
   justify-content: center;
-  gap: 35rem;
+  gap: 26rem;
 }
 .profile-card__actions > a > button {
   font-weight: bold;
