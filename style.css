@@ -151,7 +151,7 @@ body::before {
   display: flex;
   align-items: center;
   justify-content: center;
-  gap: 10rem;
+  gap: 10.2rem;
 }
 .profile-card__actions > a > button {
   font-weight: bold;
