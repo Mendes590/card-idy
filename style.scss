@@ -3,8 +3,8 @@
 body{
     font: 18px "Nunito", sans-serif;
     color: black;
-    min-height: 120vh;
-    padding: 10rem;
+    min-height: 320vh;
+    padding: 5rem;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -35,20 +35,20 @@ body{
 .profile-card {
     
     border-radius: 50px;
-    width: 1300px;
-    height: 1000px;
+    width: 4500px;
+    height: 3200px;
     position: relative;
     backdrop-filter: blur(15px);
     border: 2px solid #ffffff40;
-    padding: 4rem 10rem;
+    padding: 22rem 10rem;
     display: flex;
     flex-direction: column;
-    gap: 7px;
+    gap: 40px;
 
     &__img img{
         margin: auto;
-        width: 250px;
-        height: 250px;
+        width: 750px;
+        height: 750px;
         border-radius: 50%;
         object-fit: cover;
         display: block;
@@ -63,11 +63,11 @@ body{
         gap: 18px;
 
         h1{
-            font-size: 3.3rem;
+            font-size: 10rem;
             font-weight: bold;
 
             & + div{
-                font-size: 28px;
+                font-size: 70px;
             }
         }
     }
@@ -80,7 +80,7 @@ body{
         font-weight: lighter;
 
         @media screen and (max-width: 576px) {
-            gap: 8px;
+            gap: 18px;
         }
 
         & > div{
@@ -91,13 +91,13 @@ body{
 
             & > *:first-child{
                 font-weight: bold;
-                letter-spacing: 3px;
-                font-size: 3rem;
+                letter-spacing: 70px;
+                font-size: 15rem;
                 margin-bottom: 15px;
             }
 
             & > *:last-child{
-                font-size: 23px;
+                font-size: 70px;
                 opacity: .7;
             }
         }
@@ -112,9 +112,9 @@ body{
 
         a{
             display: inline-flex;
-            width: 75px;
-            height: 75px;
-            margin: 15px;
+            width: 200px;
+            height: 200px;
+            margin: 40px;
             border-radius: 40%;
             align-items: center;
             justify-content: center;
@@ -124,9 +124,9 @@ body{
             transition: all .2s;
             
             @media screen and (max-width:768px){
-                width: 100px;
-                height: 100px;
-                margin: 10px;
+                width: 300px;
+                height: 300px;
+                margin: 20px;
             }
             
             @media screen {
@@ -156,13 +156,13 @@ body{
         display: flex;
         align-items: center;
         justify-content: center;
-        gap: 20rem;
+        gap: 50rem;
 
         &>a>button{
             font-weight: bold;
-            font-size: 26px;
+            font-size: 60px;
             padding:  23px 0px;
-            min-width: 320px;
+            min-width: 600px;
             border-radius: 60px;
             text-align: center;
             color: white;
