@@ -4,7 +4,7 @@ body{
     font: 18px "Nunito", sans-serif;
     color: black;
     min-height: 158vh;
-    padding: 5rem;
+    padding: 4rem;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -35,8 +35,8 @@ body{
 .profile-card {
     
     border-radius: 50px;
-    width: 1750px;
-    height: 2550px;
+    width: 2050px;
+    height: 2100px;
     position: relative;
     backdrop-filter: blur(15px);
     border: 2px solid #ffffff40;
@@ -47,8 +47,8 @@ body{
 
     &__img img{
         margin: auto;
-        width: 750px;
-        height: 750px;
+        width: 475px;
+        height: 475px;
         border-radius: 50%;
         object-fit: cover;
         display: block;
@@ -60,7 +60,7 @@ body{
         text-align: center;
         display: flex;
         flex-direction: column;
-        gap: 18px;
+        gap: 15px;
 
         h1{
             font-size: 10rem;
@@ -143,7 +143,7 @@ body{
                    
                 }
                 &.instagram {
-                    background: linear-gradient(45deg, rgb(240, 186, 12), #b94a75 , #8e3fc4, #62288b);
+                    background: linear-gradient(45deg, #b94a75 , #8e3fc4, #62288b);
                     
                 } 
                 &.whatsapp {
