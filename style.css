@@ -2,7 +2,7 @@
 body {
   font: 18px "Nunito", sans-serif;
   color: black;
-  min-height: 120vh;
+  min-height: 150vh;
   padding: 5rem;
   display: flex;
   justify-content: center;
@@ -39,8 +39,8 @@ body::before {
 }
 .profile-card {
   border-radius: 50px;
-  width: 2300px;
-  height: 2700px;
+  width: 1800px;
+  height: 2900px;
   position: relative;
   -webkit-backdrop-filter: blur(15px);
           backdrop-filter: blur(15px);
