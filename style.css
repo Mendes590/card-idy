@@ -156,12 +156,12 @@ body::before {
   display: flex;
   align-items: center;
   justify-content: center;
-  gap: 30rem;
+  gap: 20rem;
 }
 @media screen and (max-width: 576px) {
   .profile-card__actions {
     flex-direction: column;
-    gap: 5rem;
+    gap: 4rem;
   }
 }
 .profile-card__actions > a > button {
@@ -185,8 +185,7 @@ body::before {
   .profile-card__actions > a > button {
     min-width: inherit;
     width: 100px;
-    max-width: 350px;
-    gap: 20px;
+    max-width: 250px;
   }
 }
 @media screen and (min-width: 576px) {

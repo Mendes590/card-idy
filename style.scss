@@ -159,11 +159,11 @@ body{
         display: flex;
         align-items: center;
         justify-content: center;
-        gap: 30rem;
+        gap: 20rem;
 
         @media screen and (max-width: 576px) {  
             flex-direction: column;
-            gap: 5rem;
+            gap: 4rem;
         }
 
         &>a>button{
@@ -184,8 +184,8 @@ body{
             @media screen and (max-width: 576px){
                 min-width: inherit;
                 width: 100px;
-                max-width: 350px;
-                gap: 20px;
+                max-width: 250px;
+    
             }  
             @media screen and (min-width:576px) {
                 &:hover {
