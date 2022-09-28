@@ -3,7 +3,7 @@
 body{
     font: 18px "Nunito", sans-serif;
     color: black;
-    min-height: 150vh;
+    min-height: 185vh;
     padding: 5rem;
     display: flex;
     justify-content: center;
@@ -35,7 +35,7 @@ body{
 .profile-card {
     
     border-radius: 50px;
-    width: 1800px;
+    width: 1600px;
     height: 2900px;
     position: relative;
     backdrop-filter: blur(15px);
@@ -91,13 +91,13 @@ body{
 
             & > *:first-child{
                 font-weight: bold;
-                letter-spacing: 70px;
-                font-size: 15rem;
+                letter-spacing: 40px;
+                font-size: 11rem;
                 margin-bottom: 15px;
             }
 
             & > *:last-child{
-                font-size: 70px;
+                font-size: 45px;
                 opacity: .7;
             }
         }
@@ -112,8 +112,8 @@ body{
 
         a{
             display: inline-flex;
-            width: 200px;
-            height: 200px;
+            width: 180px;
+            height: 180px;
             margin: 40px;
             border-radius: 40%;
             align-items: center;
@@ -124,8 +124,8 @@ body{
             transition: all .2s;
             
             @media screen and (max-width:768px){
-                width: 300px;
-                height: 300px;
+                width: 250px;
+                height: 250px;
                 margin: 20px;
             }
             
@@ -156,7 +156,7 @@ body{
         display: flex;
         align-items: center;
         justify-content: center;
-        gap: 50rem;
+        gap: 35rem;
 
         &>a>button{
             font-weight: bold;
