@@ -33,7 +33,7 @@ body{
 }
 
 .profile-card {
-    box-shadow: 0 18px 200px -60px black;
+    
     border-radius: 50px;
     width: 600px;
     position: relative;
@@ -51,7 +51,7 @@ body{
         border-radius: 50%;
         object-fit: cover;
         display: block;
-        box-shadow: 0 10px 60px -10px rgba(13, 28, 39, .5);
+        
 
     }
 
@@ -135,15 +135,15 @@ body{
 
                 &.telefone {
                     background: linear-gradient(to right, #17853f, #107e39);
-                    box-shadow: 0px 4px 30px rgba(43, 98, 169, .5);
+                   
                 }
                 &.email {
                     background: linear-gradient(#1293d2 , #0e76a8);
-                    box-shadow: 0px 4px 30px rgba(19, 72, 139, .5);
+                   
                 }
                 &.instagram {
                     background: linear-gradient(45deg, #e9b301 10%, #991a44 , #a13f65 , #833ab4, #522174);
-                     box-shadow: 0px 4px 30px rgba(19, 72, 139, .5);
+                    
                 } 
                 &.whatsapp {
                     background: linear-gradient(to right, #25d366, #1bb453);
@@ -182,16 +182,12 @@ body{
                 background: linear-gradient(45deg, #851a1a, #770606);
                 box-shadow: 0 4px 30px rgba(247, 40, 40, 0.5);
 
-                &:hover{
-                    box-shadow: 0 7px 30px rgba(19, 127, 212, 0.75)
-            }
+                
             }
             
             &.green{
                 background: linear-gradient(45deg, #0b8045, #06832b);
-                &:hover {
-                    box-shadow: 0 7px 30px rgba(223, 45, 70 , 0.75)
-                }
+                
             }
         }
       }    

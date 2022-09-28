@@ -2,8 +2,8 @@
 body {
   font: 18px "Nunito", sans-serif;
   color: black;
-  min-height: 200vh;
-  padding: 10rem;
+  min-height: 100vh;
+  padding: 1rem;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -38,17 +38,16 @@ body::before {
   }
 }
 .profile-card {
-  box-shadow: 0 18px 200px -60px black;
   border-radius: 50px;
-  width: 900px;
+  width: 600px;
   position: relative;
   -webkit-backdrop-filter: blur(15px);
           backdrop-filter: blur(15px);
   border: 2px solid rgba(255, 255, 255, 0.2509803922);
-  padding: 3rem 4rem;
+  padding: 2rem 3rem;
   display: flex;
   flex-direction: column;
-  gap: 20px;
+  gap: 7px;
 }
 .profile-card__img img {
   margin: auto;
@@ -58,7 +57,6 @@ body::before {
   -o-object-fit: cover;
      object-fit: cover;
   display: block;
-  
 }
 .profile-card__desc {
   text-align: center;
@@ -133,15 +131,12 @@ body::before {
   }
   .profile-card a.telefone {
     background: linear-gradient(to right, #17853f, #107e39);
-   
   }
   .profile-card a.email {
     background: linear-gradient(#1293d2, #0e76a8);
-    
   }
   .profile-card a.instagram {
     background: linear-gradient(45deg, #e9b301 10%, #991a44, #a13f65, #833ab4, #522174);
-   
   }
   .profile-card a.whatsapp {
     background: linear-gradient(to right, #25d366, #1bb453);
@@ -176,10 +171,8 @@ body::before {
 }
 .profile-card__actions > a > button.red {
   background: linear-gradient(45deg, #851a1a, #770606);
-  
+  box-shadow: 0 4px 30px rgba(247, 40, 40, 0.5);
 }
-
 .profile-card__actions > a > button.green {
   background: linear-gradient(45deg, #0b8045, #06832b);
-}
-/*# sourceMappingURL=style.css.map */
+}/*# sourceMappingURL=style.css.map */
