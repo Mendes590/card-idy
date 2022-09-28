@@ -92,7 +92,7 @@ body::before {
 }
 .profile-card__info > div > *:first-child {
   font-weight: bold;
-  letter-spacing: 40px;
+  letter-spacing: 27px;
   font-size: 6rem;
   margin-bottom: 15px;
 }
@@ -137,7 +137,7 @@ body::before {
     background: linear-gradient(#1293d2, #0e76a8);
   }
   .profile-card a.instagram {
-    background: linear-gradient(45deg, #b94a75, #8e3fc4, #62288b);
+    background: linear-gradient(rgb(255, 97, 97), rgb(253, 68, 68));
   }
   .profile-card a.whatsapp {
     background: linear-gradient(to right, #25d366, #1bb453);
@@ -171,8 +171,8 @@ body::before {
   }
 }
 .profile-card__actions > a > button.red {
-  background: linear-gradient(45deg, #851a1a, #770606);
+  background: linear-gradient(45deg, #9c2020, #880707);
 }
 .profile-card__actions > a > button.green {
-  background: linear-gradient(45deg, #0b8045, #06832b);
+  background: linear-gradient(45deg, #0d7541, #077729);
 }/*# sourceMappingURL=style.css.map */
