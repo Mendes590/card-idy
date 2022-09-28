@@ -44,10 +44,6 @@ body{
     flex-direction: column;
     gap: 7px;
 
-    // @media screen and (max-width:568px){
-    //     width: auto;
-    // }
-
     &__img img{
         margin: auto;
         width: 190px;
@@ -161,11 +157,6 @@ body{
         justify-content: center;
         gap: 13rem;
 
-        // @media screen and (max-width: 576px) {  
-        //     flex-direction: column;
-        //     gap: 2rem;
-        // }
-
         &>a>button{
             font-weight: bold;
             font-size: 20px;
@@ -205,4 +196,4 @@ body{
         }
       }    
     }
-    // teste
+    
