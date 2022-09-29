@@ -16,7 +16,7 @@ body{
         inset: 0;
         z-index:-1;
         pointer-events: none;
-        background: url(bg.jpg) no-repeat center;
+        background: url(bg-neve.jpg) no-repeat center;
         background-size: cover;
         animation: backgroundZoomAnimate 20s forwards;
     }
@@ -39,7 +39,7 @@ body{
     height: 2250px;
     position: relative;
     backdrop-filter: blur(15px);
-    border: 2px solid #ffffff40;
+    // border: 2px solid #ffffff40;
     padding: 15rem 10rem;
     display: flex;
     flex-direction: column;
@@ -91,14 +91,15 @@ body{
 
             & > *:first-child{
                 font-weight: bold;
-                letter-spacing: 10px;
-                font-size: 6rem;
+                letter-spacing: 7px;
+                font-size: 5rem;
                 margin-bottom: 15px;
             }
 
             & > *:last-child{
-                font-size: 45px;
+                font-size: 40px;
                 opacity: .7;
+                letter-spacing: 0.7px;
             }
         }
     }
@@ -143,7 +144,7 @@ body{
                    
                 }
                 &.instagram {
-                    background: linear-gradient(rgb(255, 97, 97), rgb(253, 68, 68));
+                    background: linear-gradient(rgb(250, 67, 67), rgb(253, 68, 68));
                     
                 } 
                 &.whatsapp {
@@ -160,8 +161,8 @@ body{
 
         &>a>button{
             font-weight: bold;
-            font-size: 50px;
-            padding:  18px 0px;
+            font-size: 47px;
+            padding:  21px 0px;
             min-width: 450px;
             border-radius: 60px;
             text-align: center;
@@ -185,6 +186,9 @@ body{
             
             &.green{
                 background: linear-gradient(45deg, #0d7541, #077729);
+            }
+            &.texto{
+                text-align: center;
             }
         }
       }    
