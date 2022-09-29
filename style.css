@@ -1,7 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;500;600;700&display=swap");
 body {
   font: 18px "Nunito", sans-serif;
-  color: black;
+  color: white;
   min-height: 150vh;
   padding: 4rem;
   display: flex;
@@ -14,7 +14,7 @@ body::before {
   inset: 0;
   z-index: -1;
   pointer-events: none;
-  background: url(bg-neve.jpg) no-repeat center;
+  background: url(mansao.jpg) no-repeat center;
   background-size: cover;
   -webkit-animation: backgroundZoomAnimate 20s forwards;
           animation: backgroundZoomAnimate 20s forwards;
@@ -169,9 +169,6 @@ body::before {
   .profile-card__actions > a > button:hover {
     transform: translateY(-5px);
   }
-}
-.profile-card__actions > a > button.red {
-  background: linear-gradient(45deg, #9c2020, #880707);
 }
 .profile-card__actions > a > button.green {
   background: linear-gradient(45deg, #0d7541, #077729);

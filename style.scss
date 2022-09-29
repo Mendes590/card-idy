@@ -2,7 +2,7 @@
 
 body{
     font: 18px "Nunito", sans-serif;
-    color: black;
+    color: white;
     min-height: 150vh;
     padding: 4rem;
     display: flex;
@@ -16,7 +16,7 @@ body{
         inset: 0;
         z-index:-1;
         pointer-events: none;
-        background: url(bg-neve.jpg) no-repeat center;
+        background: url(mansao.jpg) no-repeat center;
         background-size: cover;
         animation: backgroundZoomAnimate 20s forwards;
     }
@@ -180,9 +180,7 @@ body{
                 }
             }
 
-            &.red{
-                background: linear-gradient(45deg, #9c2020, #880707);
-            }
+           
             
             &.green{
                 background: linear-gradient(45deg, #0d7541, #077729);
