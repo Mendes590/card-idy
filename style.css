@@ -133,13 +133,13 @@ body::before {
     transform: scale(1.2) translateY(-5px);
   }
   .profile-card a.telefone {
-    background: linear-gradient(to right, #17853f, #107e39);
+    background: linear-gradient(to right, #17853f, #10883c);
   }
   .profile-card a.email {
     background: linear-gradient(#1293d2, #0e76a8);
   }
   .profile-card a.instagram {
-    background: linear-gradient(#6559ca, #bc318f, #fec66d);
+    background: linear-gradient(to bottom, #6f62dd, #bc318f, #fec66d);
   }
   .profile-card a.whatsapp {
     background: linear-gradient(to right, #25d366, #1bb453);
