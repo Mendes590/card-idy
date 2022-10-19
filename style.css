@@ -139,7 +139,7 @@ body::before {
     background: linear-gradient(#1293d2, #0e76a8);
   }
   .profile-card a.instagram {
-    background: linear-gradient(to bottom, #6f62dd 1.2vh, #bc318f 5vh, #fec66d 8vh);
+    background: linear-gradient(to bottom, #6f62dd 2.5rem, #bc318f 7rem);
   }
   .profile-card a.whatsapp {
     background: linear-gradient(to right, #25d366, #1bb453);
